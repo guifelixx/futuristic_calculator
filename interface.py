@@ -1,3 +1,4 @@
+from main import *
 from customtkinter import *
 
 interface = CTk()
@@ -133,7 +134,7 @@ botao_more = CTkButton(master=interface,
                        text="+",
                        corner_radius=30,
                        fg_color='#B45F04',
-                       hover_color='#61380B'
+                       hover_color='#61380B',
                        )
 botao_more.configure(font=('Arial', 10))
 botao_more.place(x=270, y=200)
