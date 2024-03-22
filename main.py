@@ -4,7 +4,6 @@ from customtkinter import *
 interface = CTk()
 interface.title("Calculadora")
 interface.geometry("350x400")
-interface.iconbitmap("images/calculator.ico")
 interface.resizable(False, False)
 set_appearance_mode("system")
 
