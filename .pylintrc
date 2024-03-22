@@ -9,6 +9,7 @@ disable=
       E0401,
       W0401, #wildcard-import
       C0411, #wrong-import-order
+      W0614, #unused-wildcard-import
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
